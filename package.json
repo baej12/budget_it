@@ -4,7 +4,8 @@
   "description": "Manage your finances",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/baej12/budget_it/issues"
   },
-  "homepage": "https://github.com/baej12/budget_it#readme"
+  "homepage": "https://github.com/baej12/budget_it#readme",
+  "devDependencies": {
+    "electron": "^39.2.7"
+  }
 }
