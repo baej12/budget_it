@@ -1,0 +1,19 @@
+{
+  "name": "budget_it",
+  "version": "1.0.0",
+  "description": "Manage your finances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baej12/budget_it.git"
+  },
+  "author": "Brandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baej12/budget_it/issues"
+  },
+  "homepage": "https://github.com/baej12/budget_it#readme"
+}
