@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "electron-debug",
+      "type": "shell",
+      "command": "echo",
+      "args": ["Starting Electron debug session"],
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "default"
+      }
+    }
+  ]
+}

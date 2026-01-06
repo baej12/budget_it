@@ -11,13 +11,11 @@ out/
 # Electron build artifacts
 *.asar
 
-# IDE
-.vscode/
+# IDE (only settings that shouldn't be shared)
 .idea/
 *.swp
 *.swo
 *~
-.DS_Store
 
 # Logs
 logs/
@@ -35,6 +33,7 @@ yarn-error.log*
 *.db
 *.sqlite
 *.sqlite3
+.budget_it/
 
 # OS files
 Thumbs.db

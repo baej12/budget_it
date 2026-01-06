@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Electron Main",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/electron",
+      "args": ["."],
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Electron Renderer",
+      "type": "chrome",
+      "request": "attach",
+      "port": 9223,
+      "pathMapping": {
+        "/": "${workspaceFolder}/",
+        "/app": "${workspaceFolder}"
+      },
+      "preLaunchTask": "electron-debug"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Electron",
+      "configurations": ["Electron Main", "Electron Renderer"]
+    }
+  ]
+}

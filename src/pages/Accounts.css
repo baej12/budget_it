@@ -1,0 +1,42 @@
+.accounts {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.add-account-form {
+  margin-bottom: 30px;
+}
+
+.add-account-form form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  align-items: flex-end;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.add-account-form button {
+  grid-column: 1 / -1;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.accounts-list {
+  margin-top: 20px;
+}
